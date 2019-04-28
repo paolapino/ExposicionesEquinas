@@ -8,7 +8,15 @@
   >
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
-        <h3 class="md-title">HorseNata</h3>
+        
+        <a
+                  href="#/"
+                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
+                >
+                <h3 class="md-title">
+          HorseNata
+        </h3>
+        </a>
       </div>
       <div class="md-toolbar-section-end">
         <md-button
