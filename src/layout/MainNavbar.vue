@@ -71,13 +71,7 @@
                 </a>
               </li>
 
-              <md-list-item
-                href="#/login"
-                v-if="showDownload"
-              >
-                <i class="material-icons">account_circle</i>
-                <p>Iniciar Sesion</p>
-              </md-list-item>
+           
 
               <md-list-item
                 href="javascript:void(0)"
@@ -85,7 +79,7 @@
                 v-if="showDownload"
               >
                 <i class="material-icons">cloud_download</i>
-                <p>Otro enlace??</p>
+                <p>Inicio</p>
               </md-list-item>
               <md-list-item
                 href="#/profile"
@@ -93,7 +87,7 @@
                 v-if="showDownload"
               >
                 <i class="material-icons">cloud_download</i>
-                <p>(Prueba)Perfil Usuario</p>
+                <p>Contactenos</p>
               </md-list-item>
               <md-list-item
                 href="#/profileAdmi"
@@ -101,7 +95,15 @@
                 v-if="showDownload"
               >
                 <i class="material-icons">cloud_download</i>
-                <p>(Prueba) perfil Administrador</p>
+                <p>A cerca de nosotros</p>
+              </md-list-item>
+
+               <md-list-item
+                href="#/login"
+                v-if="showDownload"
+              >
+                <i class="material-icons">account_circle</i>
+                <p>Iniciar Sesion</p>
               </md-list-item>
 
               <li class="md-list-item" v-else>

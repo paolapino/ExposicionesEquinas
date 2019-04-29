@@ -4,74 +4,115 @@
       <div class="md-layout">
         <div class="md-layout-item">
           <div class="image-wrapper">
-            <img :src="leaf4" alt="leaf4" class="leaf4" v-show="leafShow" />
-            <img :src="leaf3" alt="leaf3" class="leaf3" v-show="leafShow" />
-            <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow" />
-            <img :src="leaf1" alt="leaf1" class="leaf1" v-show="leafShow" />
+            
             <div class="brand">
-              <h1>Eventos Equinos</h1>
-              <h3>Los mejores eventos equinos de la ciudad</h3>
+              <h1>Exposiciones Equinas</h1>
+              <h3>Popayán Cauca</h3>
             </div>
           </div>
         </div>
       </div>
     </parallax>
-    <div class="main main-raised">
+    <div class="main main-raised md-layout md-gutter" classs="masonry-container" >
 <!-- Comment --> 
-        <div class="section section-signup page-header" :style="signupImage">
-        <div class="container">
-          <div class="md-layout">
-            <div
-              class="md-layout-item md-size-33 md-medium-size-40 md-small-size-50 md-xsmall-size-70 mx-auto text-center"
-            >
-              
-              <div class="md-layout md-gutter md-alignment-center">
-    <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
-          
-          <login-card header-color="green">
-              <h6 slot="title" class="card-title">Evento 1</h6>
-              <p slot="description" class="description">Información </p>
-          </login-card>
-    </div>
-    <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmntoall-size-100">
-          <login-card header-color="green">
-              <h6 slot="title" class="card-title">Evento 1</h6>
-              <p slot="description" class="description">Información </p>
-          </login-card>
-    </div>
-    <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
-          <login-card header-color="green">
-              <h6 slot="title" class="card-title">Evento 1</h6>
-              <p slot="description" class="description">Información </p>
-          </login-card>
-    </div>
-    <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
-          <login-card header-color="green">
-              <h6 slot="title" class="card-title">Evento 1</h6>
-              <p slot="description" class="description">Información </p>
-          </login-card>
-    </div>
-    <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
-        <login-card header-color="green">
-              <h6 slot="title" class="card-title">Evento 1</h6>
-              <p slot="description" class="description">Información </p>
-          </login-card>
-    </div>
-    <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
-          <login-card header-color="green">
-              <h6 slot="title" class="card-title">Evento 1</h6>
-              <p slot="description" class="description">Información </p>
-          </login-card>
-    </div>
-  </div>
+         <div class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25">
+                <div class="card text-center" data-background="image"  data-src="@/assets/img/examples/studio-1.jpg" >
+                    <h4 class="title title-modern">Hipster Vacation</h4>
+                                        <div class="content">
+                        <div class="price">
+                            <h6>From</h6>
+                            <h4>2.799<b class="currency">$</b></h4>
+                        </div>
+                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security.</p>
+                    </div>
+                    <div class="filter"></div>
+                    <div class="footer btn-center">
+                        <button class="btn btn-neutral btn-round btn-fill">Book Now!</button>
+                    </div>
+                </div> <!-- end card -->
             </div>
-          </div>
-        </div>
 
-  
+<!-- Comment -->
+<!-- tarjeta 2 -->
+        <div class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25">
+                <div class="card text-center" data-background="image"  data-src="@/assets/img/examples/studio-1.jpg" >
+                    <h4 class="title title-modern">Hipster Vacation</h4>
+                                        <div class="content">
+                        <div class="price">
+                            <h6>From</h6>
+                            <h4>2.799<b class="currency">$</b></h4>
+                        </div>
+                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security.</p>
+                    </div>
+                    <div class="filter"></div>
+                    <div class="footer btn-center">
+                        <button class="btn btn-neutral btn-round btn-fill">Book Now!</button>
+                    </div>
+                </div> <!-- end card -->
+            </div>
 
-      </div>
-<!-- Comment --> 
+<!-- fin tarjeta 2 --> 
+
+<!-- tarjeta 2 -->
+        <div class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25">
+                <div class="card text-center" data-background="image"  data-src="@/assets/img/examples/studio-1.jpg" >
+                    <h4 class="title title-modern">Hipster Vacation</h4>
+                                        <div class="content">
+                        <div class="price">
+                            <h6>From</h6>
+                            <h4>2.799<b class="currency">$</b></h4>
+                        </div>
+                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security.</p>
+                    </div>
+                    <div class="filter"></div>
+                    <div class="footer btn-center">
+                        <button class="btn btn-neutral btn-round btn-fill">Book Now!</button>
+                    </div>
+                </div> <!-- end card -->
+            </div>
+
+<!-- fin tarjeta 2 --> 
+
+<!-- tarjeta 2 -->
+        <div class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25">
+                <div class="card text-center" data-background="image"  data-src="@/assets/img/examples/studio-1.jpg" >
+                    <h4 class="title title-modern">Hipster Vacation</h4>
+                                        <div class="content">
+                        <div class="price">
+                            <h6>From</h6>
+                            <h4>2.799<b class="currency">$</b></h4>
+                        </div>
+                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security.</p>
+                    </div>
+                    <div class="filter"></div>
+                    <div class="footer btn-center">
+                        <button class="btn btn-neutral btn-round btn-fill">Book Now!</button>
+                    </div>
+                </div> <!-- end card -->
+            </div>
+
+<!-- fin tarjeta 2 --> 
+
+<!-- tarjeta 2 -->
+        <div class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25">
+                <div class="card text-center" data-background="image"  data-src="@/assets/img/examples/studio-1.jpg" >
+                    <h4 class="title title-modern">Hipster Vacation</h4>
+                                        <div class="content">
+                        <div class="price">
+                            <h6>From</h6>
+                            <h4>2.799<b class="currency">$</b></h4>
+                        </div>
+                        <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security.</p>
+                    </div>
+                    <div class="filter"></div>
+                    <div class="footer btn-center">
+                        <button class="btn btn-neutral btn-round btn-fill">Book Now!</button>
+                    </div>
+                </div> <!-- end card -->
+            </div>
+
+<!-- fin tarjeta 2 --> 
+
     </div>
   </div>
 </template>
@@ -104,7 +145,7 @@ export default {
   props: {
     image: {
       type: String,
-      default: require("@/assets/img/vue-mk-header.jpg")
+      default: require("@/assets/img/bg_horse4.jpg")
     },
     leaf4: {
       type: String,
@@ -137,6 +178,9 @@ export default {
   },
   data() {
     return {
+      tabPane1: [
+        { image: require("@/assets/img/examples/studio-1.jpg") }
+      ],
       firstname: null,
       email: null,
       password: null,
@@ -174,6 +218,9 @@ export default {
 };
 </script>
 <style lang="scss">
+
+
+
 .section-download {
   .md-button + .md-button {
     margin-left: 5px;
@@ -186,5 +233,7 @@ export default {
   }
 }
 </style>
+
+
 
 
