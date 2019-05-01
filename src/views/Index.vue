@@ -16,7 +16,7 @@
     <div class="main main-raised md-layout md-gutter" classs="masonry-container" >
 <!-- Comment --> 
          <div class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25">
-                <div class="card text-center" data-background="image"  data-src="@/assets/img/examples/studio-1.jpg" >
+                <div class="card text-center" data-background="image"   >
                     <h4 class="title title-modern">Hipster Vacation</h4>
                                         <div class="content">
                         <div class="price">
@@ -55,7 +55,7 @@
 
 <!-- tarjeta 2 -->
         <div class="md-layout-item md-size-25 md-xsmall-size-100 md-small-size-50 md-medium-size-25">
-                <div class="card text-center" data-background="image"  data-src="@/assets/img/examples/studio-1.jpg" >
+                <div class="card text-center" data-background="image"  data-src="@/assets/img/examples/studio-1.jpg" style="background-color:red">
                     <h4 class="title title-modern">Hipster Vacation</h4>
                                         <div class="content">
                         <div class="price">
